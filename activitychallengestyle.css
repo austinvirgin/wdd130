@@ -1,0 +1,21 @@
+* {background-color:rgb(252, 150, 167);}
+
+#ed {
+    text-align: center;
+    color: white;
+    text-emphasis-color: black;
+    size: 20%;
+}
+
+.nelsonquote {
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}
+
+#nelsonname {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100% ;
+}
