@@ -58,7 +58,7 @@ nav a {
 .book {
     background-color: #F8FFC6;
     text-decoration: none;
-    color: default;
+    color: blue;
 }
 
 .book:hover {
@@ -69,7 +69,7 @@ nav a {
 .join {
     background-color: #effdea;
     text-decoration: none;
-    color: default;
+    color: blue;
 }
 
 .join:hover {
@@ -79,7 +79,7 @@ nav a {
 
 footer a {
     text-decoration: none;
-    color: default;
+    color: blue;
 }
 
 footer p {
@@ -96,21 +96,21 @@ footer p a:hover {
 
 footer {
     background-color: #C1FFA6;
-    color: default;
+    color: black;
 }
 
 .home-title {
-    color: red;
+    color: black;
 }
 
 h4 {
-    color: red;
+    color: black;
 }
 
 .msg h2 {
-    color: default;
+    color: blue;
 }
 
 .msg p {
-    color: default;
+    color: blue;
 }
