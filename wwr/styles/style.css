@@ -26,10 +26,15 @@ main section {
 
 body {
     background-color: #fcfbfb;
+    font-family: Ubuntu;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-color: #C1FFA6;
+    font-family: Ubuntu;
 }
 
 nav a:hover {
@@ -53,12 +58,17 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #5F0000;
+    padding: 35px;
 }
 
 .book {
     background-color: #F8FFC6;
     text-decoration: none;
     color: blue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -70,6 +80,10 @@ nav a {
     background-color: #effdea;
     text-decoration: none;
     color: blue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -92,15 +106,22 @@ footer p a:hover {
 
 .msg {
     background-color: #C1FFA6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #C1FFA6;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: Oswald;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -109,8 +130,47 @@ h4 {
 
 .msg h2 {
     color: blue;
+    font-family: Oswald;
 }
 
 .msg p {
     color: blue;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
 }
