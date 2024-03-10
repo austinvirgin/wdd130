@@ -1,0 +1,10 @@
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    max-width: 300px;
+    background-color: black;
+}
