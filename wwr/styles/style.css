@@ -299,16 +299,19 @@ main {
 #salmon_info {
     grid-column: 4/10;
     grid-row: 3/5;
+    padding: 10px;
 }
 
 #salmon_info2 {
     grid-column: 4/10;
     grid-row: 5/6;
+    padding: 10px;
 }
 
 #salmon_info3 {
     grid-column: 4/10;
     grid-row: 7/8;
+    padding: 10px;
 }
 
 #salmon_back {
@@ -324,7 +327,7 @@ main {
     height: 100%;
     background-color: #C1FFA6;
     grid-column: 2/11;
-    grid-row: 1/10;
+    grid-row: 1/11;
     width: 100%;
     height: 100%;
 }
@@ -332,7 +335,7 @@ main {
 #des {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
 }
 
 #des_pic {
@@ -351,26 +354,29 @@ main {
     grid-column: 4/10;
     grid-row: 5/7;
     z-index: 2;
+    padding: 10px;
 }
 
 #des_info2 {
     grid-column: 4/10;
-    grid-row: 7/8;
+    grid-row: 8/9;
     z-index: 2;
+    padding: 10px;
 }
 
 #des_info3 {
     grid-column: 4/10;
-    grid-row: 8/9;
+    grid-row: 9/10;
     z-index: 2;
+    padding: 10px;
 }
 
 #des_back {
-    grid-row: 5/9;
+    grid-row: 5/10;
     grid-column: 4/10;
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 550px;
     z-index: 1;
 }
 
@@ -410,18 +416,21 @@ main {
     grid-column: 4/10;
     grid-row: 5/7;
     z-index: 2;
+    padding: 10px;
 }
 
 #grand_info2 {
     grid-column: 4/10;
     grid-row: 6/7;
     z-index: 2;
+    padding: 10px;
 }
 
 #grand_info3 {
     grid-column: 4/10;
     grid-row: 8/9;
     z-index: 2;
+    padding: 10px;
 }
 
 #grand_back {
@@ -429,8 +438,9 @@ main {
     grid-column: 4/10;
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 520px;
     z-index: 1;
+
 }
 
 #last {
