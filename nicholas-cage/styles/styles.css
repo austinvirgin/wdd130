@@ -1,60 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+    --heading-font: "Courier";
+    --paragraph-font: "American Typewriter", Helvetica, sans-serif;
+}
+
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
     background-color: #FFD700;
 }
 
+nav {
+    padding: 150px;
+    display: grid;
+    height: 150px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#acting {
+    margin-top: 0;
+}
+
+nav a {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #50C878;
+}
+
 #photo {
-    grid-column: 1/2;
-    padding-left: 20px;
-}
-
-#home {
-    grid-column: 2/3;
-    font-size: 30px;
-    text-align: center;
-}
-
-#personal_life {
-    grid-column: 3/4;
-    font-size: 30px;
-    text-align: center;
-}
-
-#memes {
-    grid-column: 4/5;
-    font-size: 30px;
-    text-align: center;
+    padding-left: 50px;
 }
 
 #acting {
     text-align: center;
 }
 
+
 #paragraph {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 #firstnic {
     grid-column: 1/2;
     grid-row: 1/2;
-    align-items: flex-start;
-    justify-content: center;
+    margin: auto;
 }
 
 #firstp {
     grid-column: 2/3;
     grid-row: 1/3;
+    text-align: center;
 }
 
 #secondnic {
     grid-column: 3/4;
     grid-row: 2/3;
-    align-items: flex-start;
-    justify-content: center;
+    margin: auto;
 }
 
 footer {
@@ -92,3 +101,34 @@ footer {
 #instagram {
     grid-column: 6/7;
 }
+
+main {
+    background-color: #50C878;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
