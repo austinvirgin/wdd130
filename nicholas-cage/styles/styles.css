@@ -10,17 +10,17 @@ header {
     grid-template-columns: 200px 1fr;
     align-items: center;
     background-color: #FFD700;
+    height: 300px;
 }
 
 nav {
-    padding: 150px;
+    padding: 30px;
     display: grid;
-    height: 150px;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#acting {
+.title {
     margin-top: 0;
 }
 
@@ -37,15 +37,15 @@ nav a:hover {
     padding-left: 50px;
 }
 
-#acting {
+.title {
     text-align: center;
 }
 
 
-#paragraph {
+.paragraph {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #firstnic {
@@ -131,4 +131,21 @@ a {
   .round {
     border-radius: 50%;
   }
+
+  #teacher {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+  }
+
+  #personal {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+  }
   
+  #fam {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: auto;
+  }
